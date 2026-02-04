@@ -6,7 +6,7 @@ TEST(testdemo,addfunctio){
     //arrange - preconditions, prepare input data
     int operand1 = 10;
     int operand2 = 20;
-    int actualresult = 0
+    int actualresult = 0;
     int expectedresult = 30;
     //act - invoke code under test
     actualresult = add(operand1,operand2);
