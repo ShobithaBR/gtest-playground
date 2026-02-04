@@ -13,3 +13,15 @@ TEST(testdemo,addfunctio){
     //Assert - validate measurment points
     ASSERT_EQ(actualresult,expectedresult);
 }
+
+TEST(testdemo,subfunction){
+    //arrange - preconditions, prepare input data
+    int operand1 = 20;
+    int operand2 = 10;
+    int actualresult = 0;
+    int expectedresult = 10;
+    //act - invoke code under test
+    actualresult = Sub(operand1,operand2);
+    //Assert - validate measurment points
+    ASSERT_EQ(actualresult,expectedresult);
+}
