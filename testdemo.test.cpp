@@ -25,3 +25,40 @@ TEST(testdemo,subfunction){
     //Assert - validate measurment points
     ASSERT_EQ(actualresult,expectedresult);
 }
+
+
+TEST(testdemo,mulfunction){
+    //arrange - preconditions, prepare input data
+    int operand1 = 20;
+    int operand2 = 10;
+    int actualresult = 0;
+    int expectedresult = 200;
+    //act - invoke code under test
+    actualresult = Mul(operand1,operand2);
+    //Assert - validate measurment points
+    ASSERT_EQ(actualresult,expectedresult);
+}
+
+TEST(testdemo,divfunction){
+    //arrange - preconditions, prepare input data
+    int operand1 = 20;
+    int operand2 = 10;
+    int actualresult = 0;
+    int expectedresult = 200;
+    //act - invoke code under test
+    actualresult = div(operand1,operand2);
+    //Assert - validate measurment points
+    ASSERT_EQ(actualresult,expectedresult);
+}
+
+TEST(testdemo,modfunction){
+    //arrange - preconditions, prepare input data
+    int operand1 = 20;
+    int operand2 = 10;
+    int actualresult = 0;
+    int expectedresult = 200;
+    //act - invoke code under test
+    actualresult = mod(operand1,operand2);
+    //Assert - validate measurment points
+    ASSERT_EQ(actualresult,expectedresult);
+}
